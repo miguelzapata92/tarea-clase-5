@@ -18,7 +18,7 @@ $botonCargar.onclick = function(event) {
     
     const edad = Number(document.querySelector("#edad-usuario")).value
 
-    $datosCargados.innerHTML = `Bienvenida ${n}`
+    $datosCargados.innerHTML = `Bienvenida ${primerNombre}`
 
 }
 
