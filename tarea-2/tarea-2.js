@@ -6,9 +6,9 @@ const $saludo = document.querySelector("saludo-bienvenida")
 
 
 
-$botonCargar.onclick = function(event) {
+$botonCargar.onclick = function() {
 
-    event.preventDefault()
+    
     
     const primerNombre =  document.querySelector("#primer-nombre").value
 
@@ -19,7 +19,8 @@ $botonCargar.onclick = function(event) {
     const edad = Number(document.querySelector("#edad-usuario")).value
 
     $datosCargados.innerHTML = `Bienvenido/a ${primerNombre}`
-
+    
+    return false
 }
 
 
